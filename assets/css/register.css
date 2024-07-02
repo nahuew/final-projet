@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerRegistro { 
+    padding: 2% 0 0 6%;
+} 
+
+.mainRegistro h1 { 
+    text-align: center; 
+    margin-bottom: 2%; 
+    color: #181818;
+} 
+
+.mainRegistro { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+} 
+
+#RegistroForm { 
+    margin-bottom: 5%;
+    width: 30%;
+} 
+
+.email h4, 
+.contrasena h4 { 
+    color: #181818; 
+    margin: 0; 
+    font-weight: 500;
+} 
+
+#email, 
+#contrasena,
+#confirmContrasena { 
+    background-color: #F2F2F2;
+    width: 100%; 
+    border: none; 
+    padding: 1.8%; 
+    border-radius: 5px; 
+    font-size: 18px;
+} 
+
+.error {
+    color: #2F80ED;
+    font-size: 24px;
+}
+
+.contrasena { 
+    margin: 4% 0;
+} 
+
+.caracterContrasena { 
+    text-align: center; 
+    padding: 0 5%;
+} 
+
+.ojoContrasena { 
+    position: relative;
+    display: flex;
+    align-items: center;
+} 
+
+.ojoContrasena img { 
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+} 
+
+#btnSubmit { 
+    font-size: 18px;
+    width: 100%; 
+    color: white; 
+    background-color: #2F80ED; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 2% 3%; 
+    cursor: pointer;
+} 
+
+#btnSubmit:hover { 
+    background-color: white; 
+    color: #2F80ED; 
+    font-size: 22px; 
+    border: #2F80ED solid 3px;
+}
+
+.terminosCondiciones {
+    padding: 2vh;
+    text-align: center;
+}
+
+.terminosCondiciones a { 
+    color: #2F80ED; 
+    text-decoration: none;
+} 
+
+.option { 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.option div { 
+    width: 25%; 
+    height: 2px; 
+    background-color: #F2F2F2;
+} 
+
+.option p { 
+    margin: 0 4%;
+} 
+
+.registroGoogle { 
+    display: flex; 
+    justify-content: center; 
+    gap: 2%;
+    border: solid #E0E0E0 2px; 
+    margin: 5% auto 2% auto; 
+    padding: 2% 3%; 
+} 
+
+.registroFB { 
+    background-color: #475993; 
+    display: flex; 
+    justify-content: center; 
+    gap: 2%;
+    margin: 5% auto 2% auto; 
+    padding: 2% 3%;  
+    
+}
+
+.registroFB a { 
+    color: white; 
+    text-decoration: none;
+} 
+
+.registroGoogle a { 
+    color: #4F4F4F; 
+    text-decoration: none;
+}
+
+/* media */ 
+
+@media (max-width: 800px) { 
+    #RegistroForm { 
+        width: 50%;
+    }
+} 
+
+@media (max-width: 500px) {
+    #RegistroForm {
+        width: 80%;
+    }
+}

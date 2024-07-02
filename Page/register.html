@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title> 
+    <link rel="stylesheet" href="../assets/css/register.css"> 
+    
+</head>
+<body>
+    
+    <header class="headerRegistro"> 
+        <a href="../../index.html">
+            <img src="../assets/img/logo.png" alt="LogoViajes"> 
+        </a>
+    </header> 
+
+    <main class="mainRegistro"> 
+        <h1>registrarse</h1> 
+
+        <form id="RegistroForm"> 
+            <div class="email"> 
+                <h4>Correo Electronico</h4> 
+                <input required type="email" name="email" id="email" > 
+                <span class="error" id="emailError"></span>
+            </div> 
+
+            <div class="contrasena"> 
+                <h4>contraseña</h4> 
+                <div class="ojoContrasena"> 
+                    <input type="password" name="contrasena" id="contrasena" required>
+                </div>
+            </div> 
+
+           <!-- 
+            
+           
+                       esto se va a usar en js
+           
+           
+           <p class="caracterContrasena"> 
+                Use a minimum of 10 characters, including 
+                letters, lowercase letters, and numbers.
+            </p> 
+            
+            -->
+            
+            <div class="contrasena"> 
+                <h4>Confirmar contraseña</h4> 
+                <div class="ojoContrasena"> 
+                    <input required type="password" name="contrasena" id="confirmContrasena"> 
+
+                </div>
+            </div> 
+
+            <input id="btnSubmit" type="submit" value="Create account"> 
+
+            <div class="terminosCondiciones">
+                <p> 
+                    By creating an account, you agree with our <a href="./terminosCondiciones.html">Terms 
+                    and Conditions</a> and <a href="./PoliticaDePrivacidad.html">Privacy Statement</a>. 
+                </p> 
+            </div>
+
+            <div class="option"> 
+                <div></div> 
+                <p> 
+                    or use one of these options
+                </p>
+                <div></div>
+            </div> 
+
+            <div class="registroGoogle"> 
+                <img src="../assets/img/logoGoogle.png" alt="Google Logo"> 
+                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&followup=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&hl=es&ifkv=AS5LTAQ1UPs7up2cMSpgGWmRoScUPz0KXpFGd20KTdeGebAKIOlC8C4eZXvrSbazC86Fg7H0n7x1jw&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S101339387%3A1719799843382782&ddm=0">Continuar con Google</a>
+            </div> 
+
+            <div class="registroFB"> 
+                <img src="../assets/img/logoFB.png" alt="Facebook Logo"> 
+                <a href="https://es-es.facebook.com/r.php?locale=es_ES&display=page">Continuar con facebook</a>
+            </div> 
+
+        </form>
+    </main> 
+
+    <!-- script -->
+    <script src="../assets/js/register.js"></script>
+</body>
+</html>
